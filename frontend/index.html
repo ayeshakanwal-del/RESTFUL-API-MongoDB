@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Product Management</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Product List</h1>
+        </header>
+
+        <section class="controls">
+            <button id="getDataButton" class="btn">Get Data</button>
+            <div class="add-data-form">
+                <h3>Add New Product</h3>
+                <input type="text" id="productTitle" class="input" placeholder="Product Title">
+                <input type="number" id="productPrice" class="input" placeholder="Product Price">
+                <button id="addDataButton" class="btn">Add Product</button>
+            </div>
+        </section>
+
+        <section id="itemsList" class="items-list">
+         
+        </section>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
